@@ -1,6 +1,7 @@
 # autocomplete
 autocomplete
 
+Look up api to search by sku_id, description of text or by brand, gives the list of skus to be displayed. 
 
  SKU_ID | DESCRIPTION | SKU_GROUP| WEIGHT 
 --- | --- | --- | --- 
@@ -17,7 +18,7 @@ One Plus 8 Pro | One plus 8 pro | OnePlus | 125
 Case insensive
 http://localhost:8080/api/sku/fetch?text=iphone
 
-Case insensitive
+Case sensitive
 http://localhost:8080/api/sku/fetch?text=iPhone
 
 By brand
