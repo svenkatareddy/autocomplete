@@ -1,7 +1,7 @@
 # autocomplete
 autocomplete
 
-Look up api to search by sku_id, description of text or by brand, gives the list of skus to be displayed. 
+Look up api to search by sku_id, description of text or by a brand, gives the list of skus to be displayed.
 
  SKU_ID | DESCRIPTION | SKU_GROUP| WEIGHT 
 --- | --- | --- | --- 
@@ -15,10 +15,10 @@ One Plus 7 | One plus 7 | OnePlus | 132
 One Plus 8 | One plus 8 | OnePlus | 141 
 One Plus 8 Pro | One plus 8 pro | OnePlus | 125 
 
-Case insensive
+Case-insensitive
 http://localhost:8080/api/sku/fetch?text=iphone
 
-Case sensitive
+Case-sensitive
 http://localhost:8080/api/sku/fetch?text=iPhone
 
 By brand
@@ -30,3 +30,5 @@ http://localhost:8080/api/sku/fetch?text=galaxy
 By Exact model
 http://localhost:8080/api/sku/fetch?text=iPhone6
 
+No records found
+http://localhost:8080/api/sku/fetch?text=asadfd
