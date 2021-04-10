@@ -1,5 +1,6 @@
-package com.datasearch.autocomplete;
+package com.datasearch.autocomplete.repo;
 
+import com.datasearch.autocomplete.entiry.Sku;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 

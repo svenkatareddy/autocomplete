@@ -1,4 +1,4 @@
-package com.datasearch.autocomplete;
+package com.datasearch.autocomplete.entiry;
 
 import javax.persistence.Entity;
 import javax.persistence.Id;

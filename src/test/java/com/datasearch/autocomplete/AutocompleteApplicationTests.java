@@ -1,9 +1,9 @@
 package com.datasearch.autocomplete;
 
+import com.datasearch.autocomplete.repo.SkuServiceRepo;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.mockito.Mock;
-import org.mockito.Mockito;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import static org.mockito.Mockito.*;
